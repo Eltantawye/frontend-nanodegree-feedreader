@@ -41,7 +41,7 @@ function init() {
  * which will be called after everything has run successfully.
  */
  function loadFeed(id, cb) {
-   
+
      var feedUrl = allFeeds[id].url,
          feedName = allFeeds[id].name;
 
@@ -119,7 +119,6 @@ $(function() {
      */
     feedList.on('click', 'a', function() {
         var item = $(this);
-
         $('body').addClass('menu-hidden');
         loadFeed(item.data('id'));
         return false;
