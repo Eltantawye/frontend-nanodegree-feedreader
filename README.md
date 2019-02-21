@@ -1,5 +1,5 @@
+# Feed Reader Testing
 
-# Project Overview
 
 [UDACITY](http://udacity.com) FEND project, given a web-based application that reads RSS feeds , Using [Jasmine](http://jasmine.github.io/) to test our project .
 
@@ -18,3 +18,4 @@
 
 ### New Feed Selection
 - when a new feed is loaded the content actually changes
+## install 
